@@ -1,0 +1,53 @@
+/* The display Property */
+/* Possible values: inline, block, inline-block */
+/* List of common inline blocks:
+HTML elements:
+<a>
+<span>
+<img>
+*/
+a {
+	display: block;
+	font-size: 150%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul li {
+	display: inline;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+img {
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+main {
+	height: 1000px;
+}
+
+/* The position property:
+-static* (default)
+-relative
+-fixed
+-absolute
+*/
+
+header {
+	position: fixed;
+	left: 44%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 10;
+}
+

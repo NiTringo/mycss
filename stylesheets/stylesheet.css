@@ -1,0 +1,107 @@
+header { /* This is called the "selector" */
+	/* property: value */
+	text-align: center;
+	font-size: 200%;
+}
+
+nav {
+	text-align: center;
+	font-size: 20px;
+	font-family: Impact;
+	border-top: 2px solid brown;
+	border-bottom: 2px solid brown;
+	height: 40px;
+
+}
+
+
+nav a:link {
+	color: brown;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+nav a:visited {
+
+	color: blue;
+}
+
+nav a:hover {
+	color: black;
+	font-size: 150%;
+
+	
+}
+
+div {
+	border: 1px dashed blue;
+	padding: 10px;
+	margin: 10px;
+}
+
+main p {
+	border-bottom: 3px double green;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	background-color: yellow;
+}
+
+main article {
+	border: 12px solid blue;
+	margin: 50px;
+	padding: 60px;
+	
+}
+
+main article header {
+	color: brown;
+	padding: 40px;
+	font-family: Impact;
+	border-bottom: 4px solid black;
+	margin: 10px;
+}
+
+
+
+main  article footer a:link{
+	color: orange;
+	
+}
+
+main article footer a:visited {
+	color: brown;
+}
+
+main article footer a:hover {
+	color: black;
+	font-size: 120%;
+	
+}
+
+main {
+	text-align: center;
+	color: green;
+	font-family: comic sans MS;
+	font-size: 200%;
+}
+
+footer {
+	text-align: center;
+	color: purple;
+	font-family: Arial;
+	font-size: 50px;
+}
+
+body {
+	background-color: pink;
+}
+
+/* The display Property */
+/* Possible values: inline, block, inline-block */
+/* List of common inline blocks:
+HTML elements:
+<a>
+<span>
+<img>
+*/
